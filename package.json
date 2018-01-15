@@ -4,13 +4,18 @@
   "description": "recruitement test",
   "main": "index.js",
   "dependencies": {
-    "chai": "^4.1.2"
   },
   "devDependencies": {
-    "mocha": "^4.1.0"
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2",
+    "npm-run-all": "^4.1.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
   },
   "scripts": {
-    "test": "mocha test/"
+    "test": "run-p test:*",
+    "test:lint": "eslint .",
+    "test:unit": "mocha test/"
   },
   "author": "Kevin Roulleau",
   "license": "ISC"
