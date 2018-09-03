@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Charm" timestamp="2018-09-03T15:25:10" time="24.529" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="1570714b1d7e65a39a8ba7aa48a35a3e"/>
+      <property name="suiteName" value="Charm"/>
+      <property name="capabilities" value="emulator-5554.android.happn-rc-latest_apk"/>
+      <property name="file" value="./src/features/interractions/charm.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Notifications_panel_shows_my_received_charms" timestamp="2018-09-03T15:25:10" time="13.611" tests="10" failures="0" errors="0" skipped="10">
+    <properties>
+      <property name="specId" value="1570714b1d7e65a39a8ba7aa48a35a3e"/>
+      <property name="suiteName" value="Notifications panel shows my received charms"/>
+      <property name="capabilities" value="emulator-5554.android.happn-rc-latest_apk"/>
+      <property name="file" value="./src/features/interractions/charm.feature"/>
+    </properties>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="Users_A_and_B" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="I_am_authenticated_as_user_A" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="Users_A_and_B_have_compatible_matching_preferences" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="User_B_charms_user_A" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="I_go_to_notifications" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="I_wait_3_seconds" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="I_put_app_in_background_for_2_seconds" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="I_go_to_notifications" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="I_can_find_a_notification_sent_by_user_B" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Notifications_panel_shows_my_received_charms" name="It_is_new" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Charmed_users_are_added_to_list_of_favorites" timestamp="2018-09-03T15:25:23" time="10.871" tests="9" failures="0" errors="0" skipped="9">
+    <properties>
+      <property name="specId" value="1570714b1d7e65a39a8ba7aa48a35a3e"/>
+      <property name="suiteName" value="Charmed users are added to list of favorites"/>
+      <property name="capabilities" value="emulator-5554.android.happn-rc-latest_apk"/>
+      <property name="file" value="./src/features/interractions/charm.feature"/>
+    </properties>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="Users_A_and_B" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="I_am_authenticated_as_user_A" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="Users_A_and_B_have_compatible_matching_preferences" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="User_A_charms_user_B" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="I_go_to_My_Favorites" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="I_wait_2_seconds" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="I_can_find_a_charm_sent_to_user_B" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="I_click_it" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="emulator-5554.android.happn-rc-latest_apk-happn.Charmed_users_are_added_to_list_of_favorites" name="I_am_on_user_B_profile_page" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>
