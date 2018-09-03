@@ -13,9 +13,7 @@
     "npm-run-all": "^4.1.2"
   },
   "scripts": {
-    "test": "run-p test:*",
-    "test:lint": "eslint .",
-    "test:unit": "mocha test/ --reporter mocha-junit-reporter"
+    "test": "mocha test/ --reporter mocha-junit-reporter"
   },
   "author": "Kevin Roulleau",
   "license": "ISC"
